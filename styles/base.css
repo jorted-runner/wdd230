@@ -1,14 +1,12 @@
-/* * {
-    max-width: 600px;
-    margin: auto;
-} */
+/* fix the colors */
+/* add fonts */
+/* work on JS dates */
 
-main {
+* {
     max-width: 600px;
     margin: auto;
 }
 
-/* I still want to fix the header */
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,9 +16,20 @@ header {
 }
 
 nav {
-    grid-template-columns: 1fr;
-    max-width: 600px;
-    margin: auto;
+    margin: 10px auto;
+    background-color: red;
+}
+
+nav a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+main h2 {
+    text-align: center;
 }
 
 .card {
@@ -52,4 +61,8 @@ ul {
     text-align: left;
     margin: auto;
     padding: 10px;
+}
+
+footer {
+    background-color: aquamarine;
 }
