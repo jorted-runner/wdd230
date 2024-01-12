@@ -1,0 +1,55 @@
+/* * {
+    max-width: 600px;
+    margin: auto;
+} */
+
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* I still want to fix the header */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    grid-template-columns: 1fr;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card h3 {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+}
+
+.card p {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+}
