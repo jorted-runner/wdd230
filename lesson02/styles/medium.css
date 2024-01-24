@@ -1,0 +1,12 @@
+@media (min-width: 600px) {
+    * {
+        max-width: 1000px;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card:nth-child(3) {
+        grid-column: 1/3;
+    }
+}
