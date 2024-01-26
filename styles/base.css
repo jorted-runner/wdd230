@@ -15,6 +15,10 @@
     font-family: 'Tektur', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -38,9 +42,6 @@ header h1 {
 .mobile-nav-toggle {
     display: none;
 }
-.icon {
-    margin: 1rem;
-}
 
 .flex {
     display: flex;
@@ -58,6 +59,10 @@ header h1 {
     margin: 0;
     background-color: hsl(0 0% 0% / 1);
     color: white;
+}
+
+.primary-navigation[data-visible="true"] {
+    transform: translateX(0%);
 }
 
 @supports (backdrop-filter: blur(.5rem)){
