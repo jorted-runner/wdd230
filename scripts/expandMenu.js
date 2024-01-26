@@ -1,3 +1,1 @@
-function expandMenu() {
-    
-}
+const primaryNav = document.querySelector()

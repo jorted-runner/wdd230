@@ -10,7 +10,7 @@
 /* Pale Dogwood: #EACDC2 */
 
 * {
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
     font-family: 'Tektur', sans-serif;
 }
@@ -25,6 +25,8 @@ header {
 
 header img {
     grid-column: 1/3;
+    max-width: 100%;
+    min-width: 100px;
 }
 
 header h1 {
@@ -32,34 +34,42 @@ header h1 {
     width: 150%;
     margin-left: -60px;
 }
-
-nav {
-    display: flex;
-    flex-direction: column;
-    margin: auto auto 10px auto;
-    background-color: #EACDC2;
-}
-
-.icon {
+/* Navigation Bar */
+.mobile-nav-toggle {
     display: none;
-    text-align: left;
-    background-color: #372549;
+}
+.icon {
+    margin: 1rem;
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.navigation-menu {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primary-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0 0% 0% / 1);
     color: white;
-    border: 1px solid #372549
 }
 
-a {
-    width: 100%;
+@supports (backdrop-filter: blur(.5rem)){
+    .primary-navigation {
+        background-color: hsl(0 0% 100% / .55);
+        backdrop-filter: blur(.5rem);
+        color: black;
+    }
+}
+
+.primary-navigation a {
     text-decoration: none;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #1A1423;
-    text-align: center;
-    padding: 5px;
-}
-
-nav a:hover {
-    background-color: #1A1423;
-    color: #EACDC2;
 }
 
 
@@ -85,6 +95,16 @@ main h2 {
     margin: auto;
 }
 
+h3::before {
+    content: "- ";
+    color: white;
+}
+
+h3::after {
+    content: " -";
+    color: white;
+}
+
 .card p {
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
@@ -92,11 +112,23 @@ main h2 {
     padding: 10px;
 }
 
-ul {
+#lesson-links {
     list-style-type: none;
     text-align: left;
     margin: auto;
     padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+iframe {
+    height: 450px;
+    width: 80%;
 }
 
 footer {

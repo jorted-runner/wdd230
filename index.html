@@ -26,20 +26,34 @@
         <img src="images/familyphoto.jpg" alt="Picture of Danny">
         <h1>Danny Ellis</h1>
     </header>
-    <a href="javascript:void(0);" class="icon" onclick="expandMenu()">
-        <i class="fa fa-bars"></i>
-    </a>
-    <nav>
-        <a href="#">Home</a>
-        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
-        <a href="https://www.byui.edu/" target="_blank" rel="noopener">BYU-Idaho</a>
-        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p6-p7#p6" target="_blank" rel="noopener">Scripture</a>
-    </nav>
+
+    <div class="navigation-menu">
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+        </button>
+        <nav>
+            <ul id="primary-navigation" class="primary-navigation flex">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+                </li>
+                <li>
+                    <a href="https://www.byui.edu/" target="_blank" rel="noopener">BYU-Idaho</a>
+                </li>
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p6-p7#p6" target="_blank" rel="noopener">Scripture</a>
+                </li>
+            </ul>       
+        </nav>
+    </div>
+    
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
-            <ul>
+            <ul id="lesson-links">
                 <li>01: <a href="lesson01/holygrail.html">Holy Layout</a></li>
                 <li>02: <a href="lesson02/design-principles.html">Design Principles</a></li>
                 <li>03: <a href="#">Lesson 03</a></li>
@@ -58,13 +72,18 @@
             <p>20&deg;F - Snowy</p>
             <p>Page Visits</p>
         </section>
+        
+
     </main>
+    <div class="container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99214.48650250926!2d-94.27915189999999!3d39.0049855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c11a4d25e0e57b%3A0x109f2216ac1f2d35!2sBlue%20Springs%2C%20MO!5e0!3m2!1sen!2sus!4v1706233231333!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
         <p><br>Danny Ellis<br>United States</p>
         <p id="lastModified">Last Modification: </p>
     </footer>
 
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/expandMenu.js"></script>
     
 </body>
 </html>

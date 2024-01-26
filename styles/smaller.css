@@ -2,10 +2,26 @@
     header h1 {
         margin: auto;
     }
-    .icon {
-        display: inherit;
+
+    .primary-navigation {
+        --gap: .5em;
+        position: fixed;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        padding: min(30vh, 10rem) 2em;
+        z-index: 1000;
     }
-    nav {
-        display: none;
+
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        background: url("/images/menu-icon.svg");
+        background-repeat: no-repeat;
+        width: 2.5rem;
+        aspect-ratio: 1;
+        border: 0;
+        top: 2rem;
+        right: 2rem;
+        z-index: 9999;
     }
 }
