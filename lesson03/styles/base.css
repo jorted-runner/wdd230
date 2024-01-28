@@ -51,3 +51,7 @@ p {
 li {
     font-family: 'Nunito', sans-serif;
 }
+
+li > strong {
+    font-family: 'Roboto Condensed', sans-serif;
+}
