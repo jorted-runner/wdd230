@@ -4,7 +4,11 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
  */
 
-#header-color {
+body {
+    max-width: 800px;
+    margin: auto;
+}
+ #header-color {
     background-color: #00376B;
     color: #EBEBEB;
 }
@@ -55,3 +59,14 @@ li {
 li > strong {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50rem;
+    height: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
