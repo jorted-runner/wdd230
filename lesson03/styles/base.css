@@ -1,0 +1,23 @@
+#header-color {
+    background-color: #00376B;
+    color: #EBEBEB;
+}
+#section-header-color {
+    background-color: #99B9DB;
+    color: black;
+}
+
+#section-header-text-color {
+    background-color: black;
+    color: white;
+}
+
+#header-text-color {
+    background-color: #EBEBEB;
+    color: black;
+}
+
+#accent-color {
+    background-color: #FF6700;
+    color: black;
+}
