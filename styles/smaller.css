@@ -23,7 +23,7 @@
         background: url("/images/menu-icon.svg");
         background-repeat: no-repeat;
         width: 2.5rem;
-        aspect-ratio: 1;
+        aspect-ratio: 1 / 1;
         border: 0;
         top: 2rem;
         right: 2rem;
