@@ -20,7 +20,7 @@
     .mobile-nav-toggle {
         display: block;
         position: absolute;
-        background: url("wdd230/images/menu-icon.svg");
+        background: url("https://jorted-runner.github.io/wdd230/images/menu-icon.svg");
         background-repeat: no-repeat;
         width: 2.5rem;
         aspect-ratio: 1 / 1;
@@ -31,7 +31,7 @@
     }
 
     .mobile-nav-toggle[aria-expanded="true"]{
-        background: url("wdd230/images/x-icon.svg");
+        background: url("https://jorted-runner.github.io/wdd230/images/x-icon.svg");
         background-repeat: no-repeat;
     }
 }
