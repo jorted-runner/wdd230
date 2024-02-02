@@ -81,7 +81,9 @@ li > strong {
     text-align: center;
 }
 img {
-    width: 50rem;
+    width: 90%;
+    max-width: 750px;
+    margin: auto;
 }
 
 hr {
