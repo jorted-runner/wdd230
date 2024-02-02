@@ -4,11 +4,13 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
  */
 
-
-h1 {
+header {
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    background-color: #00376B;
+    color: #EBEBEB
 }
+
 body {
     max-width: 800px;
     margin: auto;
