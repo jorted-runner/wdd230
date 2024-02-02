@@ -16,6 +16,12 @@ body {
     margin: auto;
     display: block;
 }
+
+h3 {
+    background-color: #99B9DB;
+    color: black;
+}
+
  #header-color {
     background-color: #00376B;
     color: #EBEBEB;
@@ -78,3 +84,6 @@ img {
     width: 50rem;
 }
 
+hr {
+    border: 1px solid #FF6700;
+}
