@@ -2,5 +2,36 @@
     .mobile-nav-toggle {
         display: none;
     }
-         
+
+    .primary-navigation {
+        position: static;
+        transform: none;
+        background-color: transparent;
+        color: black;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem;
+        transition: none;
+        background-color: #00376B;
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: none;
+    }
+
+    .primary-navigation a {
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        text-decoration: none;
+        color: #EBEBEB;
+        width: 100%;
+    }
+    .primary-navigation a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
 }
