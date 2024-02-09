@@ -22,3 +22,24 @@ addButton.addEventListener('click', () => {
         inputElement.focus();
     }
 });
+
+document.addEventListener('keypress', function(event) {
+    let keyPressed = event.key;
+    if (keyPressed == "Enter" && inputElement.value != "") {
+        // This section will execute if the user inputs text.
+        const newChap = document.createElement('li');
+        const deleteButton = document.createElement('button')
+        newChap.textContent = inputElement.value;
+        deleteButton.textContent = "❌";
+        newChap.append(deleteButton);
+        list.appendChild(newChap);
+        deleteButton.addEventListener("click", () => {
+            list.removeChild(newChap);
+        });
+        inputElement.focus();
+        inputElement.value = '';
+    } else if (keyPressed == "Enter" && inputElement.value == "") {
+        alert("Cannot add a blank chapter. Add a chapter and try again.");
+        inputElement.focus();
+    }
+});
