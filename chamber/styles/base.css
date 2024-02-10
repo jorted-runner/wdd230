@@ -111,7 +111,6 @@ header {
 }
 
 .navigation-menu {
-    align-items: right;
     text-align: right;
     justify-content: space-between;
 }
