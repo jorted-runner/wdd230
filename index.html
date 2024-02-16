@@ -17,12 +17,12 @@
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="BYU-I WDD130 Assignment Portal">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://jorted-runner.github.io/wdd230/wasatch.jpg">
+    <meta property="og:image" content="https://jorted-runner.github.io/wdd230/wasatch.webp">
     <meta property="og:url" content="https://jorted-runner.github.io/wdd230/">
 </head>
 <body>
     <header>
-        <img src="images/familyphoto.jpg" alt="Picture of Danny">
+        <img src="images/familyphoto.webp" alt="Picture of Danny">
         <h1>Danny Ellis</h1>
     </header>
 
@@ -52,6 +52,16 @@
     </div>
     
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Guayaquil, Ecuador LDS Temple" width="1250" height="750">
+            </picture>
+            <div class="herolabel">
+                <p>Guayaquil, Ecuador Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
