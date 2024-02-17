@@ -78,10 +78,10 @@ header {
     transform: translateX(26px);
   }
 
-#hero-section {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
+.hero img {
+    width: 100%;
+    height: auto;
+  }
 
 #hero-img {
     max-width: 1000px;
