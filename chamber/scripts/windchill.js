@@ -10,7 +10,7 @@ windspeedElmnt.setAttribute('id', 'windchill');
 
 if (tempActual <= 50 && windActual > 3.0) {
     var windChill = 35.74 + (0.6215 * tempActual) - (35.75 * Math.pow(windActual, 0.16)) + (0.4275 * tempActual * Math.pow(windActual, 0.16));
-    windspeedElmnt.innerHTML = `${windChill}&deg;F`;
+    windspeedElmnt.innerHTML = `${windChill.toFixed(2)}&deg; F`;
 } else {
     windspeedElmnt.textContent = 'N/A';
 }
