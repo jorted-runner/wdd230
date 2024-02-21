@@ -1,0 +1,20 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+}
+main img {
+    grid-column: 2;
+    padding: 1rem;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    animation: fade 15s;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
