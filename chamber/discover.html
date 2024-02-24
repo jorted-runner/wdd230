@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danny Ellis">
+    <meta name="description" content="Discover page for Blue Springs Chamber of Commerce.">
+    <meta property="og:title" content="Blue Springs Chamber of Commerce Discover Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jorted-runner.github.io/wdd230/chamber/blue-springs.jpg">
+    <meta property="og:url" content="https://jorted-runner.github.io/wdd230/chamber/">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="blue-springs-icon.ico">
+    <script defer src="scripts/windchill.js"></script>
+    <title>Blue Springs Chamber of Commerce Discover</title>
+</head>
+<body>
+    <header>
+        <h1>Blue Springs Chamber of Commerce</h1>
+    </header>
+    <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+    </label>
+    <div class="navigation-menu">
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">        </button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Discover</a>
+                </li>
+                <li>
+                    <a href="#">Directory</a>
+                </li>
+                <li>
+                    <a href="#">Join</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 770px)" srcset="images/wdd230-org-SMALL.webp">
+            <source media="(max-width: 1000px)" srcset="images/wdd230-org-MEDIUM.webp">
+            <img src="images/wdd230-org-LARGE.webp" alt="WDD Temp Hero Image" width="1250" height="833">
+        </picture>
+    </div>
+    <!-- <div id="hero-section">
+        <img id="hero-img" src="images/bs-hero.jpg" alt="Blue Springs Hero Image">
+        <button id="hero-btn">Join the Chamber</button>
+    </div>     -->
+    <main>        
+        <section class="left card">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam dolores possimus, mollitia nihil, officiis id quae harum ab voluptates vitae quas libero? Similique minus atque debitis necessitatibus neque quis alias?</p>
+        </section>
+        <section class="left card">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum placeat repudiandae tempora. Totam consequatur nam asperiores maxime id at? Recusandae eum optio quisquam ea incidunt perferendis, sed nesciunt quos magnam!</p>
+        </section>
+        <section class="left card">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora quia rerum veritatis dolorem porro nostrum possimus quae est ut id quaerat iusto sapiente commodi, at enim sed eius. Unde.</p>
+        </section>
+        <section class="right card">
+            <img src="images/main-street-2.webp" alt="" width="500" height="312" loading="lazy">
+            <img src="images/knight-bus.webp" alt="" width="500" height="334" loading="lazy">
+            <img src="images/lake.webp" alt="" width="500" height="324" loading="lazy">
+            <img src="images/meditation.webp" alt="" width="500" height="333" loading="lazy">
+            <img src="images/old-building.webp" alt="" width="500" height="240" loading="lazy">
+            <img src="images/trees-park.webp" alt="" width="334" height="500" loading="lazy">
+        </section>
+    </main>
+    <footer>
+        <p><br>Danny Ellis<br>United States</p>
+        <p>This is project for BYU-I WDD230</p>
+        <p id="lastModified">Last Modification: </p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/expandMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+</body>
+</html>
