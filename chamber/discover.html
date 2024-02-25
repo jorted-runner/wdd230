@@ -17,7 +17,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="icon" href="blue-springs-icon.ico">
-    <script defer src="scripts/windchill.js"></script>
     <title>Blue Springs Chamber of Commerce Discover</title>
 </head>
 <body>
@@ -36,7 +35,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Discover</a>
+                    <a href="discover.html">Discover</a>
                 </li>
                 <li>
                     <a href="#">Directory</a>
@@ -58,7 +57,10 @@
         <img id="hero-img" src="images/bs-hero.jpg" alt="Blue Springs Hero Image">
         <button id="hero-btn">Join the Chamber</button>
     </div>     -->
-    <main>        
+    <main>
+        <section class="left card">
+            <p id="lastVisit"></p>
+        </section>        
         <section class="left card">
             <h1>Heading</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam dolores possimus, mollitia nihil, officiis id quae harum ab voluptates vitae quas libero? Similique minus atque debitis necessitatibus neque quis alias?</p>
@@ -71,7 +73,7 @@
             <h1>Heading</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempora quia rerum veritatis dolorem porro nostrum possimus quae est ut id quaerat iusto sapiente commodi, at enim sed eius. Unde.</p>
         </section>
-        <section class="right card">
+                <section class="right card">
             <img src="images/main-street-2.webp" alt="" width="500" height="312" loading="lazy">
             <img src="images/knight-bus.webp" alt="" width="500" height="334" loading="lazy">
             <img src="images/lake.webp" alt="" width="500" height="324" loading="lazy">
@@ -89,5 +91,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/expandMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/lastVisit.js"></script>
 </body>
 </html>
