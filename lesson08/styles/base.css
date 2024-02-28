@@ -1,0 +1,49 @@
+:root {
+    --border: black;
+    --shadow: grey;
+    --borderlight: lightblue;
+    --heading: darkblue;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--shadow);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--borderlight);
+}
+
+thead tr:first-child {
+    background-color: var(--heading);
+    border: thin solid var(--border);
+    color: white;
+}
+
+thead tr:nth-child(2) th:nth-child(1) {
+    background-color: var(--heading);
+    border: thin solid var(--heading);
+}
+thead tr:nth-child(2) th{
+    background-color: var(--borderlight);
+    border: thin solid var(--heading);
+    font-weight: bolder;
+}
+
+tbody tr td:first-child {
+    font-weight: bolder;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+      color: var(--border);
+      font-size: .75rem;
+  }
