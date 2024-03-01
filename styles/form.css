@@ -1,0 +1,73 @@
+:root {
+    --border: #ddd;
+    --background: #eee;
+    --heading: darkblue;
+}
+
+h1 {
+    text-align: center;
+    width: 65%;
+    margin: 2rem auto;
+}
+
+.wf1 fieldset {
+    margin: 2rem auto;
+    border: 1px solid ;
+    border-radius: .5rem 2% var(--border);
+    width: 65%;
+}
+.wf1 legend {
+    text-align: left;
+    padding: 0 .5rem;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+    min-width: 400px;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 input[type="password"],
+.wf1 input[type="range"],
+.wf1 select 
+{
+    background-color: var(--background);
+    display: block;
+    border: solid 1px var(--border);
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    min-width: 250px;
+    appearance: none;
+}
+
+#ratingValue {
+	font-size: 1.25rem;
+    width: 2rem;
+    margin: 5px;
+}
+
+#submitLabel {
+    padding: 0;
+}
+
+#submitField {
+    border-style: none;
+}
+
+.wf1 input[type="submit"] {
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    display: block;
+    border: solid 1px var(--border);
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--border);
+    width: 90%;
+    min-width: 250px;
+    appearance: none;
+    margin: auto;
+}

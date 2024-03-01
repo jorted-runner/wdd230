@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danny Ellis">
+    <meta name="description" content="Practice using html forms.">
+    <title>WDD230 Form Practice</title>
+    <link rel="stylesheet" href="styles/myNormalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/smaller.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tektur&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="scripts/form.js"></script>
+</head>
+<body>
+    <main>
+        <div id="formMessage"></div>
+    <h1>Practice Form</h1>
+    <form class="wf1"method="get" action="record.html">
+        <fieldset>
+            <legend>Username</legend>
+            <label>Username * <input id="username" type="text" name="username" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Password</legend>
+            <label>Password * <input id="password" type="password" name="password" pattern="^[a-zA-Z0-9]{8,}$" required></label>
+            <label>Confirm Password * <input id="passwordConfirm" type="password" name="passwordConfirm" pattern="^[a-zA-Z0-9]{8,}$" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <label>Email * <input type="email" name="email" required placeholder="someone@byui.edu" pattern="[a-zA-Z0-9_.\-]+@byui.edu" title="A valid byui.edu email address."></label>
+        </fieldset>
+        <fieldset>
+            <legend>Page Rating</legend>
+            <label>Page Rating<input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1"><div id="ratingValue">1</div></label>
+        </fieldset>
+        <fieldset id="submitField">
+            <label id="submitLabel"><input type="submit" value="Propose My Course"></label>            
+        </fieldset>
+    </form>
+    </main>
+</body>
+</html>
