@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danny Ellis">
+    <meta name="description" content="This page allows users to sign up to be members of the Blue Springs Chamber of Commerce Home">
+    <meta property="og:title" content="Join Blue Springs Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jorted-runner.github.io/wdd230/chamber/blue-springs.jpg">
+    <meta property="og:url" content="https://jorted-runner.github.io/wdd230/chamber/">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="blue-springs-icon.ico">
+    <script defer src="scripts/form.js"></script>
+    <title>Join Blue Springs Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <h1>Blue Springs Chamber of Commerce</h1>
+    </header>
+    <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+    </label>
+    <div class="navigation-menu">
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">        </button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="discover.html">Discover</a>
+                </li>
+                <li>
+                    <a href="#">Directory</a>
+                </li>
+                <li>
+                    <a href="#">Join</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 770px)" srcset="images/wdd230-org-SMALL.webp">
+            <source media="(max-width: 1000px)" srcset="images/wdd230-org-MEDIUM.webp">
+            <img src="images/wdd230-org-LARGE.webp" alt="WDD Temp Hero Image" width="1250" height="833">
+        </picture>
+    </div>
+    <!-- <div id="hero-section">
+        <img id="hero-img" src="images/bs-hero.jpg" alt="Blue Springs Hero Image">
+        <button id="hero-btn">Join the Chamber</button>
+    </div>     -->
+    <main>
+        <form class="form" method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Name</legend>
+                <label>First Name* <input id="fname" type="text" name="fname" required></label>
+                <label>Last Name* <input id="lname" type="text" name="lname" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Job Information</legend>
+                <label>Job Title or Position* <input id="job" type="text" name="job" required pattern="[a-zA-Z -]{7,}"></label>
+                <label>Business or Organization Name* <input id="business" type="text" name="business" required></label>
+                <label>Business or Organization Description* <input id="businessDesc" type="text" name="businessDesc" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Email* <input type="email" name="email" required placeholder="someone@somewhere.com"></label>
+                <label>Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label><input type="radio" name="level" id="npMem" value="np"> Non-Profit</label>
+                <label><input type="radio" name="level" id="bMem" value="bronze"> Bronze</label>
+                <label><input type="radio" name="level" id="sMem" value="silver"> Silver</label>
+                <label><input type="radio" name="level" id="gMem" value="gold"> Gold</label>
+            </fieldset>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Join the Chamber">
+        </form>
+        <div id="membershipLevels">
+            <div class="level">
+                <h1>Non-Profit</h1>
+                <p><strong>Cost:</strong> $100/Year</p>
+                <p><strong>Benefits: </strong>Access to networking events, training sessions, and advertising opportunities tailored for non-profit organizations. Enjoy discounted rates on Chamber events and exclusive access to member resources.</p>
+            </div>
+            <div class="level">
+                <h1>Bronze</h1>
+                <p><strong>Cost:</strong> $250/Year</p>
+                <p><strong>Benefits: </strong>Expanded benefits including priority event registration, featured advertising placements on the Chamber's website, and increased visibility within the business community. Bronze members receive exclusive invitations to industry-specific workshops and seminars.</p>
+            </div>
+            <div class="level">
+                <h1>Silver</h1>
+                <p><strong>Cost:</strong> $500/Year</p>
+                <p><strong>Benefits: </strong>Silver members receive all Bronze benefits plus enhanced exposure through prominent advertising spots on the Chamber's homepage. Enjoy additional discounts on event sponsorships, personalized marketing support, and exclusive access to VIP networking opportunities.</p>
+            </div>
+            <div class="level">
+                <h1>Gold</h1>
+                <p><strong>Cost:</strong> $1,000/Year</p>
+                <p><strong>Benefits: </strong>Gold members receive the highest level of recognition and benefits. Enjoy exclusive sponsorship opportunities at Chamber events, personalized business consulting services, and priority access to leadership development programs. Gold members receive premier advertising placements and enjoy the highest level of visibility within the Chamber community.</p>
+            </div>
+
+        </div>      
+        
+    </main>
+    <footer>
+        <p><br>Danny Ellis<br>United States</p>
+        <p>This is project for BYU-I WDD230</p>
+        <p id="lastModified">Last Modification: </p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/expandMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+</body>
+</html>

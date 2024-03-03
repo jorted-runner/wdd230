@@ -64,4 +64,22 @@
         z-index: 1;
         box-shadow: 0 0 30px black;
     }
+    #membershipLevels {
+        display: block; /* Display the div for larger views */
+        grid-column: 2; /* Place the div in the second column */
+        align-self: flex-start;
+    }
+    .level {
+        border: 1px solid #00376B;
+        margin: .5rem auto .5rem auto;
+    }
+    .level h1 {
+        background-color: #00376B;
+        color: #EBEBEB;
+        margin: 0;
+        padding: 5px;
+    }
+    .level p {
+        margin: .2rem;
+    }
 }
