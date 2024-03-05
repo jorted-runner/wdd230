@@ -21,7 +21,7 @@
     <main>
         <div id="formMessage"></div>
     <h1>Practice Form</h1>
-    <form class="wf1"method="get" action="record.html">
+    <form class="wf1" method="get" action="record.html">
         <fieldset>
             <legend>Username</legend>
             <label>Username * <input id="username" type="text" name="username" required></label>
@@ -33,11 +33,12 @@
         </fieldset>
         <fieldset>
             <legend>Email</legend>
-            <label>Email * <input type="email" name="email" required placeholder="someone@byui.edu" pattern="[a-zA-Z0-9_.\-]+@byui.edu" title="A valid byui.edu email address."></label>
+            <label>Email * <input type="email" id="email" name="email" required placeholder="someone@byui.edu" pattern="[a-zA-Z0-9_.\-]+@byui.edu" title="A valid byui.edu email address."></label>
         </fieldset>
         <fieldset>
             <legend>Page Rating</legend>
-            <label>Page Rating<input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1"><div id="ratingValue">1</div></label>
+            <label>Page Rating<input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1"></label>
+            <p id="ratingValue">1</p>
         </fieldset>
         <fieldset id="submitField">
             <label id="submitLabel"><input type="submit" value="Propose My Course"></label>            

@@ -12,8 +12,8 @@ h1 {
 
 .wf1 fieldset {
     margin: 2rem auto;
-    border: 1px solid ;
-    border-radius: .5rem 2% var(--border);
+    border: 1px solid var(--border);
+    border-radius: .5rem 2%;
     width: 65%;
 }
 .wf1 legend {
