@@ -1,0 +1,25 @@
+{
+    "wardInformation": {
+        "familyName": "Ellis",
+        "moveInDate": "2024-01-20",
+        "numberOfPeople": 3,
+        "visitedByBishopric": false,
+        "familyMembers": [
+            {
+                "name":"Danny Ellis",
+                "gender":"Male",
+                "birthdate":"1996-11-20"
+            },
+            {
+                "name":"Rebekah Ellis",
+                "gender":"Female",
+                "birthdate":"1999-02-07"
+            },
+            {
+                "name":"Eleanor Ellis",
+                "gender":"Female",
+                "birthdate":"2023-08-12"
+            }
+        ]
+    }
+}
