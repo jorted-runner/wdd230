@@ -1,0 +1,106 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url":"lesson01/holygrail.html",
+                    "title":"Holy Layout"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url":"lesson02/design-principles.html",
+                    "title":"Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url":"lesson03/chamber-site-plan.html",
+                    "title":"Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url":"https://codepen.io/JortedRunner/pen/MWxVaXg",
+                    "title":"Pseudo-Class Codepen"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url":"lesson05/bom.html",
+                    "title":"Book of Mormon Favorite Chapters"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url":"images/landscape.webp",
+                    "title":"WebP Image"
+                },
+                {
+                    "url":"lesson06/responsive-images.html",
+                    "title":"Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url":"lesson07/lazyload.html",
+                    "title":"Lazy Load"
+                },
+                {
+                    "url":"lesson07/bom/bom.html",
+                    "title":"BOM with local storage"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url":"lesson08/tablebuild.html",
+                    "title":"Table Practice"
+                },
+                {
+                    "url":"lesson08/form_start/index.html",
+                    "title":"Form Practice"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url":"lesson09/prophets.html",
+                    "title":"Prophets"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url":"#",
+                    "title":"Lesson 10"
+                }
+            ]
+        }
+    ]
+}
