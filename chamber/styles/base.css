@@ -333,3 +333,9 @@ footer {
     width: 95%;
     margin: auto;
 }
+
+@media (max-width: 770px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

@@ -65,8 +65,8 @@
         box-shadow: 0 0 30px black;
     }
     #membershipLevels {
-        display: block; /* Display the div for larger views */
-        grid-column: 2; /* Place the div in the second column */
+        display: block;
+        grid-column: 2;
         align-self: flex-start;
     }
     .level {
