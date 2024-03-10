@@ -82,4 +82,7 @@
     .level p {
         margin: .2rem;
     }
+    .gridButton {
+        grid-column: 1/3;
+    }
 }

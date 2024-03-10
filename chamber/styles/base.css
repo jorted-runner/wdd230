@@ -323,19 +323,37 @@ footer {
 }
 
 .directoryCard img {
-    max-width: 100%;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.gridButton {
-    grid-column: 1/3;
-    width: 95%;
-    margin: auto;
+.directoryList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.directoryList img {
+    display: none;
 }
 
-@media (max-width: 770px) {
-    main {
-        grid-template-columns: 1fr;
-    }
+.directoryList h2 {
+    margin: 0;
+}
+
+.directoryList a {
+    margin-left: auto;
+}
+
+.directoryList:nth-child(even) {
+    background-color: white;
+}
+
+.gridButton {
+    margin: 5px;
 }
