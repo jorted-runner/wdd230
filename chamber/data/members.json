@@ -1,0 +1,68 @@
+{
+    "companies": [
+      {
+        "name": "Blue Springs Ford",
+        "address": "3200 South Outer Rd, Blue Springs, MO 64015",
+        "phone": "+1 816-229-4400",
+        "website": "https://www.bluespringsford.com/",
+        "image": "blue_springs_ford_logo.png",
+        "membership_level": "Gold",
+        "other_info": "Authorized Ford dealership offering new and used vehicles, as well as service, parts, and financing."
+      },
+      {
+        "name": "Hy-Vee",
+        "address": "601 W 40 Hwy, Blue Springs, MO 64014",
+        "phone": "+1 816-224-3200",
+        "website": "https://www.hy-vee.com/",
+        "image": "hyvee_logo.png",
+        "membership_level": "Silver",
+        "other_info": "Supermarket chain with a variety of groceries, prepared foods, and services including pharmacy and bakery."
+      },
+      {
+        "name": "St. Mary's Medical Center",
+        "address": "201 NW R D Mize Rd, Blue Springs, MO 64014",
+        "phone": "+1 816-228-5900",
+        "website": "https://www.stmaryskc.com/",
+        "image": "st_marys_medical_center_logo.png",
+        "membership_level": "Bronze",
+        "other_info": "Community hospital providing a range of medical services including emergency care, surgery, and rehabilitation."
+      },
+      {
+        "name": "Community Services League",
+        "address": "200 SW 10th St, Blue Springs, MO 64015",
+        "phone": "+1 816-229-0033",
+        "website": "https://www.cslcares.org/",
+        "image": "community_services_league_logo.png",
+        "membership_level": "Non-profit",
+        "other_info": "Non-profit organization offering assistance programs including food, housing, and utility support for those in need."
+      },
+      {
+        "name": "Sheridan's Frozen Custard",
+        "address": "1300 NW State Route 7, Blue Springs, MO 64014",
+        "phone": "+1 816-224-3641",
+        "website": "https://sheridanscustard.com/",
+        "image": "sheridans_frozen_custard_logo.png",
+        "membership_level": "Bronze",
+        "other_info": "Family-owned chain serving frozen custard treats in various flavors, plus burgers, fries, and sandwiches."
+      },
+      {
+        "name": "Planet Fitness",
+        "address": "1100 NW State Route 7, Blue Springs, MO 64014",
+        "phone": "+1 816-224-0003",
+        "website": "https://www.planetfitness.com/",
+        "image": "planet_fitness_logo.png",
+        "membership_level": "Silver",
+        "other_info": "Gym chain offering cardio machines, weights, fitness classes, and 24/7 access for members."
+      },
+      {
+        "name": "Blue Springs Family YMCA",
+        "address": "1300 Adams Dairy Pkwy, Blue Springs, MO 64014",
+        "phone": "+1 816-224-9620",
+        "website": "https://kansascityymca.org/locations/blue-springs-family-ymca",
+        "image": "ymca_logo.png",
+        "membership_level": "Gold",
+        "other_info": "Community center providing fitness facilities, swimming pools, sports programs, and youth activities."
+      }
+    ]
+  }
+  

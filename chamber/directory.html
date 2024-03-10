@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danny Ellis">
+    <meta name="description" content="Directory of the Blue Springs Chamber of Commerce">
+    <meta property="og:title" content="Blue Springs Chamber of Commerce Directory Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jorted-runner.github.io/wdd230/chamber/blue-springs.jpg">
+    <meta property="og:url" content="https://jorted-runner.github.io/wdd230/chamber/">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="blue-springs-icon.ico">
+    <script defer src="scripts/windchill.js"></script>
+    <title>Blue Springs Chamber of Commerce Directory Page</title>
+</head>
+<body>
+    <header>
+        <h1>Blue Springs Chamber of Commerce</h1>
+    </header>
+    <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+    </label>
+    <div class="navigation-menu">
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">        </button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="discover.html">Discover</a>
+                </li>
+                <li>
+                    <a href="#">Directory</a>
+                </li>
+                <li>
+                    <a href="join.html">Join</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 770px)" srcset="images/wdd230-org-SMALL.webp">
+            <source media="(max-width: 1000px)" srcset="images/wdd230-org-MEDIUM.webp">
+            <img src="images/wdd230-org-LARGE.webp" alt="WDD Temp Hero Image" width="1250" height="833">
+        </picture>
+    </div>
+    <!-- <div id="hero-section">
+        <img id="hero-img" src="images/bs-hero.webp" alt="Blue Springs Hero Image">
+        <button id="hero-btn">Join the Chamber</button>
+    </div>     -->
+    <main>        
+        
+    </main>
+    <footer>
+        <p><br>Danny Ellis<br>United States</p>
+        <p>This is project for BYU-I WDD230</p>
+        <p id="lastModified">Last Modification: </p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/expandMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+</body>
+</html>
