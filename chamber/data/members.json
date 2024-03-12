@@ -5,7 +5,7 @@
         "address": "3200 South Outer Rd, Blue Springs, MO 64015",
         "phone": "+1 816-229-4400",
         "website": "https://www.bluespringsford.com/",
-        "image": "https://jorted-runner.github.io/wdd230/chamber/images/blue_springs_ford.webp",
+        "image": "https://jorted-runner.github.io/wdd230/chamber/images/ford.webp",
         "membership_level": "Gold",
         "other_info": "Authorized Ford dealership offering new and used vehicles, as well as service, parts, and financing."
       },
@@ -23,7 +23,7 @@
         "address": "201 NW R D Mize Rd, Blue Springs, MO 64014",
         "phone": "+1 816-228-5900",
         "website": "https://www.stmaryskc.com/",
-        "image": "https://jorted-runner.github.io/wdd230/chamber/images/stmary.webp",
+        "image": "https://jorted-runner.github.io/wdd230/chamber/images/stmarys.webp",
         "membership_level": "Bronze",
         "other_info": "Community hospital providing a range of medical services including emergency care, surgery, and rehabilitation."
       },
@@ -32,7 +32,7 @@
         "address": "200 SW 10th St, Blue Springs, MO 64015",
         "phone": "+1 816-229-0033",
         "website": "https://www.cslcares.org/",
-        "image": "https://jorted-runner.github.io/wdd230/chamber/images/communityServicesLeague.webp",
+        "image": "https://jorted-runner.github.io/wdd230/chamber/images/community.webp",
         "membership_level": "Non-profit",
         "other_info": "Non-profit organization offering assistance programs including food, housing, and utility support for those in need."
       },
@@ -50,7 +50,7 @@
         "address": "1100 NW State Route 7, Blue Springs, MO 64014",
         "phone": "+1 816-224-0003",
         "website": "https://www.planetfitness.com/",
-        "image": "https://jorted-runner.github.io/wdd230/chamber/images/PlanetFitness.webp",
+        "image": "https://jorted-runner.github.io/wdd230/chamber/images/planetFit.webp",
         "membership_level": "Silver",
         "other_info": "Gym chain offering cardio machines, weights, fitness classes, and 24/7 access for members."
       },
