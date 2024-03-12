@@ -42,8 +42,10 @@ const displayDirectory = (data) => {
         const card = document.createElement('section');
         card.setAttribute('class', 'directoryData');
         card.classList.add('directoryCard');
+
         const memberName = document.createElement('h2');
         memberName.textContent = member.name;
+
         const logo = document.createElement('img');
         logo.setAttribute('src', member.image);
         logo.setAttribute('alt', `Picture from ${member.name}`);
@@ -53,11 +55,21 @@ const displayDirectory = (data) => {
         } else {
             logo.setAttribute('width', '350');
         }
+
+        const addressElmnt = document.createElement('p');
+        addressElmnt.textContent = member.address;
+
+        const phoneNumElmnt = document.createElement('p');
+        phoneNumElmnt.textContent = member.phone;
+
         const aElmnt = document.createElement('a');
-        aElmnt.setAttribute('href', '#');
-        aElmnt.textContent = 'More Information';
+        aElmnt.setAttribute('href', member.website);
+        aElmnt.textContent = member.website;
+
         card.appendChild(memberName);
         card.appendChild(logo);
+        card.appendChild(addressElmnt);
+        card.appendChild(phoneNumElmnt);
         card.appendChild(aElmnt);
         document.querySelector('main').appendChild(card);       
     });
