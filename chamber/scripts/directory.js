@@ -50,11 +50,8 @@ const displayDirectory = (data) => {
         logo.setAttribute('src', member.image);
         logo.setAttribute('alt', `Picture from ${member.name}`);
         logo.setAttribute('loading', 'lazy');
-        if (member.name == 'Planet Fitness') {
-            logo.setAttribute('width', '178');
-        } else {
-            logo.setAttribute('width', '350');
-        }
+        logo.setAttribute('width', '350');
+        logo.setAttribute('height', '200');
 
         const addressElmnt = document.createElement('p');
         addressElmnt.textContent = member.address;
