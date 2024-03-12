@@ -309,29 +309,32 @@ footer {
 }
 
 .directoryCard h2 {
-    margin: 5px 0;
+    margin: 5px 0 0 0;
     position: absolute;
-}
-
-.directoryCard h2 {
     top: 0;
-}
-
-.directoryCard a {
-    bottom: 0;
-}
-
-.directoryCard p {
-    margin: 0;
 }
 
 .directoryCard img {
     max-width: 350px;
     width: 100%;
     height: auto;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin: 30px auto 15px auto;
 }
+
+
+
+.directoryCard p {
+    margin: 0;
+}
+.directoryCard p:nth-child(1) {
+    margin-top: auto;
+}
+
+.directoryCard a {
+    margin-top: 0;
+}
+
+
 
 .directoryList {
     width: 100%;
