@@ -322,8 +322,6 @@ footer {
     margin: 30px auto 15px auto;
 }
 
-
-
 .directoryCard p {
     margin: 0;
 }
@@ -353,8 +351,16 @@ footer {
     margin: 0;
 }
 
-.directoryList a {
+.directoryList p {
+    margin: 0;
+    font-size: .75rem;
+}
+.directoryList p:first {
     margin-left: auto;
+}
+
+.directoryList a {
+    margin-left: 0;
 }
 
 .directoryList:nth-child(even) {
