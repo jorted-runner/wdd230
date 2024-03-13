@@ -25,7 +25,7 @@ function displayWeather(weather) {
     currentTempElmnt.innerHTML = `${weather.main.temp}&deg; F`;
     weatherIcon.setAttribute('src', `${weatherIconBaseURL}${weather.weather[0].icon}@2x.png`);
     weatherIcon.setAttribute('alt', weather.weather[0].main);
-    captionDesc.textContent = `${weather.weather[0].description}`.toTitleCase();
+    captionDesc.textContent = `${weather.weather[0].description}`;
 }
 
 apiFetch();
