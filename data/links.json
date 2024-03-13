@@ -97,8 +97,8 @@
             "lesson": "10",
             "links": [
                 {
-                    "url":"#",
-                    "title":"Lesson 10"
+                    "url":"lesson10/weather.html",
+                    "title":"Weather Practice"
                 }
             ]
         }
