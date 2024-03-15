@@ -121,6 +121,7 @@ main h2 {
     outline-color: black;
     border-radius: 10px;
     margin: 15px;
+    text-align: center;
 }
 
 .card h3 {
@@ -166,6 +167,11 @@ h3::after {
 iframe {
     height: 450px;
     width: 80%;
+}
+
+.card figure {
+    display: inline-block; /* Allows setting width and height */
+    text-align: center; /* Centers inline content within figure */
 }
 
 footer {
