@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="icon" href="blue-springs-icon.ico">
-    <script defer src="scripts/windchill.js"></script>
+    <!-- <script defer src="scripts/windchill.js"></script> -->
     <title>Blue Springs Chamber of Commerce Home Page</title>
 </head>
 <body>
@@ -79,9 +79,12 @@
         </section>
         <section id="weather">
             <h2>Weather</h2>
-            <p>Blue Springs, Missouri</p>
-            <p id="temperature">20&deg; F - Snowy</p>
-            <p id="windspeed">4.5 mpg NW</p>
+            <p>The current temperature in Blue Springs, Missouri is <span id="currentWeather"></span></p>
+            <p id="windspeed"></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
         </section>
         <section id="company-spotlights">
             <h2>Company Spotlights</h2>
@@ -104,5 +107,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/expandMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

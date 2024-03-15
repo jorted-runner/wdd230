@@ -170,8 +170,16 @@ iframe {
 }
 
 .card figure {
-    display: inline-block; /* Allows setting width and height */
-    text-align: center; /* Centers inline content within figure */
+    display: inline-block;
+    text-align: center;
+}
+
+span {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+figcaption {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 footer {

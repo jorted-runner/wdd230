@@ -22,10 +22,10 @@ async function apiFetch() {
 }
 
 function displayWeather(weather) {
-    currentTempElmnt.innerHTML = `${weather.main.temp}&deg; F`;
+    currentTempElmnt.innerHTML = `${temp}&deg; F`;
     weatherIcon.setAttribute('src', `${weatherIconBaseURL}${weather.weather[0].icon}@2x.png`);
     weatherIcon.setAttribute('alt', weather.weather[0].main);
-    captionDesc.textContent = `${weather.weather[0].description}`;
+    captionDesc.textContent = `${weather.weather[0].description}`.toUpperCase();
 }
 
 apiFetch();
