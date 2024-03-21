@@ -53,15 +53,21 @@
         padding: 5px;
     }
 
-    .right img {
+    .right figure {
+        width: 90%;
+        max-width: 500px;
+        margin: auto 5% 1rem 5%;
+    }
+
+    figure image {
         width: 100%;
         max-width: 500px;
         height: auto;
     }
 
-    .right img:hover {
+    .right figure:hover {
         transform: scale(1.05);
-        z-index: 1;
+        z-index: 99999;
         box-shadow: 0 0 30px black;
     }
     #membershipLevels {
