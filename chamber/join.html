@@ -33,16 +33,16 @@
         <nav>
             <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class='nav-link' href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="discover.html">Discover</a>
+                    <a class='nav-link' href="discover.html">Discover</a>
                 </li>
                 <li>
-                    <a href="directory.html">Directory</a>
+                    <a class='nav-link' href="directory.html">Directory</a>
                 </li>
                 <li>
-                    <a href="join.html">Join</a>
+                    <a class='nav-link' href="join.html">Join</a>
                 </li>
             </ul>
         </nav>
@@ -63,7 +63,7 @@
             </fieldset>
             <fieldset>
                 <legend>Job Information</legend>
-                <label>Job Title or Position* <input pattern="[a-zA-Z?-]{7,}" id="job" type="text" name="job" required></label>
+                <label>Job Title or Position* <input pattern="[a-zA-Z\s\-]{7,}" id="job" type="text" name="job" required></label>
                 <label>Business or Organization Name* <input id="business" type="text" name="business" required></label>
                 <label>Business or Organization Description* <input id="businessDesc" type="text" name="businessDesc" required></label>
             </fieldset>

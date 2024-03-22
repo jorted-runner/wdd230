@@ -15,6 +15,19 @@
         transition: none;
         background-color: #00376B;
     }
+    #hero-btn {
+        position: absolute;
+        z-index: 1;
+        background-color: #FF6700;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Oswald', sans-serif;
+        width: 40%;
+        font-size: 2rem;
+    }
 
     .primary-navigation[data-visible="true"] {
         transform: none;
