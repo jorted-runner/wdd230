@@ -1,7 +1,7 @@
 window.onload = function() {
     const today = new Date();
     const dayOfWeek = today.getDay();
-    if (dayOfWeek >= 1 && dayOfWeek <= 7) {
+    if (dayOfWeek >= 1 && dayOfWeek <= 3) {
         const meetingBanner = document.getElementById('meetingBanner');
         meetingBanner.style.display = 'block';
     }
