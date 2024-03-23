@@ -342,6 +342,7 @@ nav a {
     text-align: center;
     position: relative;
     background-color: white;
+    color: black;
 }
 
 .directoryCard h2 {
@@ -401,6 +402,7 @@ nav a {
 
 .directoryList:nth-child(even) {
     background-color: white;
+    color: black;
 }
 
 .gridButton {
@@ -422,4 +424,22 @@ nav a {
 
 #closeBtn {
     cursor: pointer;
+}
+
+#weather {
+    text-align: center;
+}
+
+#weather h2, #company-spotlights h2{
+    text-align: left;
+    text-decoration: underline;
+}
+
+#threeDay {
+    border: solid 1px black;
+    padding: 0px 5px 0px 5px;
+}
+
+#threeDay h4 {
+    text-decoration: underline;
 }

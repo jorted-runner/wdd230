@@ -13,7 +13,7 @@ function displayHighlights(data) {
     const goldMembers = [];
     const members = data.members;
     members.forEach((member) => {
-        if (member.membership_level === "Gold") {
+        if (member.membership_level === "Gold" || member.membership_level == "Silver") {
             goldMembers.push(member);
         }
     });
