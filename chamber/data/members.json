@@ -68,7 +68,7 @@
       "address": "2201 MO-7, Blue Springs, MO 64014",
       "phone": "+1 816-224-8282",
       "website": "https://minskys.com/location/blue-springs/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/minsky.webp",
       "membership_level": "Bronze",
       "other_info": "Local chain serving gourmet pizzas, sandwiches & Italian specialties in a casual atmosphere."
     },
@@ -77,7 +77,7 @@
       "address": "1106 NE Coronado Dr, Blue Springs, MO 64014",
       "phone": "+1 816-229-7700",
       "website": "https://www.fiveguys.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/fiveguys.webp",
       "membership_level": "Silver",
       "other_info": "Counter-serve chain offering burgers, hot dogs, fries & milkshakes in a simple setting."
     },
@@ -86,7 +86,7 @@
       "address": "1110 NE Coronado Dr, Blue Springs, MO 64014",
       "phone": "+1 816-224-2583",
       "website": "https://www.chipotle.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/chipotle.webp",
       "membership_level": "Gold",
       "other_info": "Fast-food chain offering Mexican fare, including design-your-own burritos, tacos & bowls."
     },
@@ -95,7 +95,7 @@
       "address": "801 NW 7 Hwy, Blue Springs, MO 64015",
       "phone": "+1 816-220-8400",
       "website": "https://www.olivegarden.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/olive.webp",
       "membership_level": "Bronze",
       "other_info": "Lively, family-friendly chain featuring Italian standards such as pasta & salads, with a full bar."
     },
@@ -104,7 +104,7 @@
       "address": "801 NW 7 Hwy Ste A, Blue Springs, MO 64014",
       "phone": "+1 816-220-9005",
       "website": "https://www.pandaexpress.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/panda.webp",
       "membership_level": "Silver",
       "other_info": "Fast-food chain for Chinese standards, including some health-conscious options."
     },
@@ -113,7 +113,7 @@
       "address": "810 NW 7 Hwy, Blue Springs, MO 64014",
       "phone": "+1 816-220-4805",
       "website": "https://www.starbucks.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/starbucks.webp",
       "membership_level": "Gold",
       "other_info": "Coffee & espresso chain offering drinks, pastries, and snacks."
     },
@@ -122,7 +122,7 @@
       "address": "123 Pediatric Ln, Blue Springs, MO 64015",
       "phone": "+1 816-555-6789",
       "website": "https://www.bluespringspediatrics.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/pediatrics.webp",
       "membership_level": "Gold",
       "other_info": "Pediatric medical practice specializing in healthcare for infants, children, and adolescents."
     },
@@ -131,7 +131,7 @@
       "address": "456 Dance Ave, Blue Springs, MO 64014",
       "phone": "+1 816-555-9876",
       "website": "https://www.bluespringsdancestudio.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/dance.webp",
       "membership_level": "Gold",
       "other_info": "Dance studio offering a variety of classes including ballet, tap, jazz, hip-hop, and more for all ages."
     },
@@ -140,7 +140,7 @@
       "address": "789 Dental Blvd, Blue Springs, MO 64014",
       "phone": "+1 816-555-5432",
       "website": "https://www.bluespringsdentistry.com/",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://jorted-runner.github.io/wdd230/chamber/images/dental.webp",
       "membership_level": "Gold",
       "other_info": "Comprehensive dental practice providing services such as cleanings, fillings, root canals, and cosmetic dentistry."
     }    
