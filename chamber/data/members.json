@@ -116,6 +116,33 @@
       "image": "https://via.placeholder.com/150",
       "membership_level": "Gold",
       "other_info": "Coffee & espresso chain offering drinks, pastries, and snacks."
-    }
+    },
+    {
+      "name": "Blue Springs Pediatrics",
+      "address": "123 Pediatric Ln, Blue Springs, MO 64015",
+      "phone": "+1 816-555-6789",
+      "website": "https://www.bluespringspediatrics.com/",
+      "image": "https://via.placeholder.com/150",
+      "membership_level": "Gold",
+      "other_info": "Pediatric medical practice specializing in healthcare for infants, children, and adolescents."
+    },
+    {
+      "name": "Blue Springs Dance Studio",
+      "address": "456 Dance Ave, Blue Springs, MO 64014",
+      "phone": "+1 816-555-9876",
+      "website": "https://www.bluespringsdancestudio.com/",
+      "image": "https://via.placeholder.com/150",
+      "membership_level": "Gold",
+      "other_info": "Dance studio offering a variety of classes including ballet, tap, jazz, hip-hop, and more for all ages."
+    },
+    {
+      "name": "Blue Springs Family Dentistry",
+      "address": "789 Dental Blvd, Blue Springs, MO 64014",
+      "phone": "+1 816-555-5432",
+      "website": "https://www.bluespringsdentistry.com/",
+      "image": "https://via.placeholder.com/150",
+      "membership_level": "Gold",
+      "other_info": "Comprehensive dental practice providing services such as cleanings, fillings, root canals, and cosmetic dentistry."
+    }    
   ]
 }
